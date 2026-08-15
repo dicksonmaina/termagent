@@ -17,6 +17,10 @@ dependencies = [
 
 [project.optional-dependencies]
 input = ["prompt_toolkit>=3.0"]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
 
 [project.scripts]
 termagent = "termagent.cli:main"

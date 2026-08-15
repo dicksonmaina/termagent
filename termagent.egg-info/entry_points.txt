@@ -1,0 +1,2 @@
+[console_scripts]
+termagent = termagent.cli:main
