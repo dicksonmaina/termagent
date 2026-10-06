@@ -1,9 +1,30 @@
-__pycache__/
-*.pyc
-*.pyo
-.env
-.venv/
-venv/
-*.db
-*.sqlite
+# OS
 .DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+.credentials
+*.key
+credentials.json
+
+# Python
+__pycache__
+*.pyc
+.venv
+.venv/
+*.egg-info
+dist
+build
+*.whl
+.eggs
+
+# Node
+node_modules
+
+# Build/dist
+dist
+build
+
